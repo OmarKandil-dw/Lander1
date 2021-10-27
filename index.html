@@ -9,9 +9,10 @@
 </head>
 <body>
                      <!-- star main  -->
-    <main>
+    <header>
              <!-- start nav -->
              <nav>
+                <div class="navbar">
                  <div class="nv-left">
                  <img src="./asset/header_logo.svg" alt="logo lander">
                  <ul>
@@ -28,7 +29,7 @@
                      <a href="#">14 DAY FREE TRY</a></li>
                     <a href="#">LOG IN </a></li>
                  </div>
-            
+            </div>
             </nav>
             <div class="titre">
                 <h1>CONTACT US</h1>
@@ -36,22 +37,63 @@
             </div>
 
              <!-- end nav -->
-    </main>
+    </header>
+             <!--star body-->
+<section class="MainSec">
     <div class="reach">
-        <h1>REACH OUT TO US!</h1>
+        <h2>REACH OUT TO US!</h2>
         <p>
-Got a question about Lander? Want to partner with us? 
-Have somesuggestions or just want to say"HI"?
- Contact Us:</p>
+          Got a question about Lander? Want to partner with us?<br> 
+          Have somesuggestions or just want to say"HI"?
+         Contact Us:</p>
+        <form action="/input">
+            <input type="text" id="fname" name="first name" placeholder="first name"><br>
+            <input type="text" id="fname" name="last name"  placeholder="last name"><br>
+            <input type="text" id="fname" name="email"placeholder="email"><br>
+            <input type="text" id="fname" name="phone"  placeholder="phone"><br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="message"></textarea>
+            <input id="submit1" type="submit" value="Submit">
+        </form>
+
         </div>
-        
-<form action="/input">
-    <input type="text"  classname="fname" value="first name" placeholder=""><br><br>
-    <input type="text" id="lname" name="lname" value="last name"><br><br>
-    <input type="text" id="lname" name="lname" value="email"><br><br>
-    <input type="text" id="lname" name="lname" value="phone"><br><br>
-    <input type="submit" value="Submit">
-  </form>
+
+<!-- ================================ -->
+
+    <div class="team">
+                <h2>LANDER TEAM</h2>
+                <p>
+                    Not sure to start? Need help adding that extra mojo to your landing page? <br>
+                    Visit our Help Center or get in touch with us:
+                </p>
+               <h3>Other ways to connect </h3>
+
+    <section class="article">
+        <div>
+            <img class="photos" src="./facbook.jpg" alt="facbook">
+            <p>Be the first on your block to get product updates,annoucements,new and lots of really good content,like us on Facebook today!</p>
+        </div>
+
+        <div>
+            <img  class="photos" src="./twitter.jpg" alt="twitter">
+            <p>Want the best tips on conversion optimization,landing pages,content marketing, SEO & SEM? Then follow us on Twitter at @landerapp</p>
+        </div>
+
+        <div>
+            <img  class="photos"   src="./in.jpg" alt="in">
+            <p>Follow us on LinkedIn to get latest updates,news and information about us also check our weekly blog updates!</p>
+        </div>
+    </section>
+
+
+    </div>
+
+</section>
+
+
+          <!--end body-->
+
+
+   
 
   
 
