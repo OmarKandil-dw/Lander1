@@ -26,6 +26,7 @@ header{
 }
 nav{
     width: 100%;
+    height: 15%;
     position: fixed;
     background-color: #F38E58;
     top: -40px;
@@ -105,70 +106,161 @@ padding: 15px 20px;
     margin-top: 0px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
+     }
 
-}
-
-.MainSec{
+main{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
+   background-color: rgb(252, 249, 249);
     justify-content: center;
-    align-items: center;
-
-}
-.reach h2 {
-    color: cornflowerblue;
-}
-.team h2{
-    color: cornflowerblue;
+   height: 800px;
+    flex-flow: row wrap;
 }
 
-.reach{
+.reachout{
     width: 50%;
-    margin-top: 90px;
-    margin-bottom: 80px;
-    margin-right: 80px;
-    margin-left: 80px;
-
-
-  }
-.team{
+}
+.left{
+    padding-left: 100px;
+    padding-right: 50px;
+    margin: auto;
+}
+.left form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+#BTN{
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+input[type=text], textarea {
+    padding: 12px 20px;
+    margin: 10px 0;
+    display:flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font: 300 1em/1.35rem "proxima-nova", sans-serif;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+}
+textarea::-webkit-scrollbar{
+    width: 12px;
+    line-height: 2.3;
     
 }
 
-#fname {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    width: 230px;
-    height: 20px;
 
-}
-form{
-  
-    
-
-}
-#message {
-    margin-top: 12px; 
-     margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    width: 230px;
+input[type=submit] {
+    justify-self: flex-end;
+    width: 150px;
     height: 50px;
+    background-color: #f39b6b;
+    border-style: none;
+    margin-top: 30px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.btn input[type=submit]{
+    align-self: flex-end;
+}
+  
+input[type=submit]:hover {
+    background-color: #d16e39;
+}
+
+
+
+.left h1, .right h1{
+    color: #5BB5DE;
+    font-family: 'proxima-nova', sans-serif;
+    font-variant-caps: all-petite-caps;
+    font-weight: 600 ;
+    font-size: 1.9em;
+}
+.left p, .right p{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: #767676;
+    margin: 1em 0;
+    line-height: 140%;
+    
+}
+
+
+
+
+.landerteam{
+    width: 50%;
+}
+.right{
+    padding-left: 50px;
+    padding-right: 100px;
+}
+.landerteam i{
+    color: #f39b6b;
+    font-size: 80px;
+}
+.landerteam a{
+    font-size: 1em;
 
 }
-::selection{
-    color: coral;
+.help_center, .link{
+    text-decoration: none;
+    color: #F49B6C;
 }
-#submit1{
-    background-color: coral;
-    border-radius: 3px;
-    font-size: 18px;
-    margin-top: -10px; 
+
+
+
+.social{
+    margin-top: 70px;
 }
+
+.social p{
+    line-height: 140%;
+    font-size: 1.2em;
+    margin-left: 90px;
+    margin-top: 25px;
+}
+.social a{
+    font-size: 1em;
+
+}
+.social h3{
+    font-weight: 400;
+    font-size: 1.75em;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.landerteam i{
+    margin-top: 5px;
+    color: #F49B6C;
+    font-size: 80px;
+    
+}
+.social div{
+    margin-bottom: 30px;
+}
+
+#twitter_icon, #linkedin_icon,#facebook_icon{
+    float: left;
+    border-radius: 50%;
+    color: white;
+    background-color: #f39b6b;
+    padding: 15px;
+    font-size: 35px;
+    
+}
+
+
+
+
+
+
+ 
 
 .article div{
  display: flex;
@@ -179,7 +271,7 @@ form{
     background-color: #404040 ;
     color: rgb(255, 255, 255);
     grid-template-columns: auto auto auto auto auto auto ;
-    height: 300px;
+    height: 240px;
     width: 100%;
     
 }
@@ -216,8 +308,11 @@ width: 100%;
 height: 30px;
 color: white;
 padding: 10px;
-
 }
+
+
+
+
     
     
    
